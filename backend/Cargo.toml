@@ -1,0 +1,17 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0.1"
+actix-web-actors = "4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+diesel = { version = "2.0.4", features = ["postgres", "r2d2"] }
+sqlx = { version = "0.6", features = ["mysql", "runtime-tokio-native-tls"] }
+bcrypt = "0.13"
+dotenv = "0.15"
+actix-cors = "0.6"
+

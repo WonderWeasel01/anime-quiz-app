@@ -1,0 +1,10 @@
+# Frontend
+node_modules
+dist
+dist-ssr
+*.local
+.env
+
+# Backend
+Backend/target
+.env
